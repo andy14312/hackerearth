@@ -1,0 +1,36 @@
+podcasts
+Choose as many as you like
+AThe Changelog
+BRuby Rogues
+CTalk Python To Me
+DShop Talk Show
+EJavaScript Jabber
+FSoftware Engineering Daily
+GCodePen Radio
+H.NET Rocks
+ISoftware Engineering Radio
+JJavaScript Air
+KThe Web Ahead
+LGiant Robots Smashing into Other Giant Robots
+MCode Newbie
+NProgramming Throwdown
+ODeveloper Tea
+
+youtube videos
+Google Developers
+BSimplilearn
+CLevelUpTuts
+DComputerphile
+EThe New Boston
+FfreeCodeCamp
+GCodeCourse
+HMozilla Hacks
+IMIT Open Courseware
+JCoding Train (Coding Rainbow)
+KCoding Tutorials 360
+Lfunfunfunction
+MDerek Banas
+NEngineered Truth
+ODevTips
+PLearnCode.Academy
+
