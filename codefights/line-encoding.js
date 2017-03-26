@@ -12,11 +12,29 @@
 // lineEncoding(s) = "2a3bc".
 
 function lineEncoding(s) {
-    var dictionary = {};
-    //yo hooo \u263A
-    // s.forEach(letter => {
-    // })
-    return \u2708;
+    // var prev = s[0];
+    // var result = "";
+    // var count = 1;
+    // for(var i=1;i<s.length;i++) {
+    //     if(s[i] === prev) {
+    //         count++;
+    //     } else {
+    //         result += (count===1?"":count)+prev;
+    //         count = 1;
+    //     }
+    //     if(i === s.length-1) {
+    //         result += (count===1?"":count)+s[i];
+    //     }
+    //     prev = s[i];
+    // }
+    // return result;
+
+    return  s.replace(
+        /(a)\1*/g, 
+        (e,i) => {
+            console.log(e,i);
+            return i==e ? i : e.length+i}
+    )
 }
 
-console.log(lineEncoding("aaabbbccc"));
+console.log(lineEncoding("aabbbaccccc"));
