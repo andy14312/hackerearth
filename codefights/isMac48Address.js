@@ -4,17 +4,9 @@
 
 // Your task is to check by given string inputString whether it corresponds to MAC-48 address or not.
 
-// Example
-
-// For inputString = "00-1B-63-84-45-E6", the output should be
-// isMAC48Address(inputString) = true;
-// For inputString = "Z1-1B-63-84-45-E6", the output should be
-// isMAC48Address(inputString) = false;
-// For inputString = "not a MAC-48 address", the output should be
-// isMAC48Address(inputString) = false.
-
 function isMAC48Address(inputString) {
-    console.log(String.fromCharCode(inputString));
+    var digits = inputString.split("-");
+    return digits.length === 6 ? digits.every(digit => digit.length === 2 && parseInt(digit,16) >= 0 && parseInt(digit,16) <= 255) : false;
 }
-
-console.log(isMAC48Address("A"))
+//This is so cool :jlkj:
+console.log(isMAC48Address("00-1B-63-8-45-E6"));

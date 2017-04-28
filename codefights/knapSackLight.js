@@ -14,7 +14,7 @@
 
 function knapsackLight(value1, weight1, value2, weight2, maxW) {
     var totalValue;
-    if(weight1+weight2 < maxW) {
+    if(weight1+weight2 <= maxW) {
         totalValue = value1+value2;
     } else if(weight1 <= maxW && weight2 <= maxW) {
         if(value1 >= value2) {
