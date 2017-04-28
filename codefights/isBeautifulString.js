@@ -36,4 +36,4 @@ function isBeautifulString(inputString) {
     return true;
 }
 
-console.log(isBeautifulString("bbbaacdafe"));
+console.log(isBeautifulString("bbc"));
